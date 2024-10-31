@@ -1,0 +1,37 @@
+#ptc-content{
+    direction: ltr;
+}
+
+#ptc-tbody tr td  {
+    max-width: 250px;
+    border:none !important;
+}
+
+#ptc-table-head-row td  {
+    max-width: 250px;
+    border:none !important;
+}
+
+#ptc-table-head-row td img {
+    width: 200px;
+}
+
+
+#ptc-actions { text-align:right}
+#ptc-actions button:first-child { background:#000000; border:0; border-radius:0; padding:0 54px; font-weight:bold; color:#FFF; font-size:18px; line-height:45px; box-shadow: 0 3px 5px 0 rgba(0,0,0,0.41);}
+#ptc-actions button:last-child  { background-color:transparent; border:0; border-radius:0; padding:0 10px; font-weight:bold; color:#2d2d2d; font-size:18px; line-height:45px; }
+#ptc-table-head-row h1 { cursor:pointer; color:#1ba43d; margin:0; padding:0;}
+#ptc-table-head-row .slider-disable { cursor:none; opacity:0.3}
+#ptc-table-head-row td { vertical-align:middle; text-align:center; font-weight:bold; position:relative; text-transform:capitalize;}
+#ptc-table-head-row td  h3 { color:#151515; font-size:18px;}
+#ptc-table-head-row td span:before { cursor:pointer; content:""; width:24px; z-index:2; height:24px; background:#fff; border-radius:50%; border:3px solid #1ba43d; position:absolute; left:50%; margin-left:-12px; bottom:18px;}
+#ptc-table-head-row td input { position:relative; z-index:4; opacity:0; cursor:pointer}
+#ptc-table-head-row td span:after { cursor:pointer; z-index:3; content:""; width:14px; height:14px;  border-radius:50%;position:absolute; left:50%; margin-left:-7px; bottom:23px; }
+#ptc-table-head-row  input:checked ~ span:after{ background:#1ba43d}
+#ptc-tbody td { vertical-align:middle; font-weight:bold; color:#2d2d2d; font-size:18px; text-align:center; padding:20px;}
+#ptc-tbody td p, #ptc-tbody td h5 { margin:0; padding:0; font-size:18px;}
+#ptc-tbody tr:nth-child(odd) td { background:#ebebeb!important}
+#ptc-tbody tr:nth-child(odd) { background:#ebebeb!important}
+#ptc-tbody tr:nth-child(odd) td:first-child { background:#1ba43d!important; color:#fff; box-shadow:inset -10px 0 0 0 rgba(255,255,255,1);}
+#ptc-tbody tr:nth-child(even) td { background:#ffffff!important}
+#ptc-tbody .fas.fa-check { color:#1ba43d}
